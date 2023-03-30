@@ -3,7 +3,7 @@ import { useParams, Link, Outlet, useLocation } from 'react-router-dom';
 import { getMovieById } from 'services';
 import { Bars } from 'react-loader-spinner';
 import { MovieCard, MovieInfo } from './MovieDetails.styled';
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { HiArrowSmLeft } from 'react-icons/hi';
 import { Suspense } from 'react';
 
